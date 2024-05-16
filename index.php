@@ -34,8 +34,21 @@
     </div>
 </nav>
 
-<div class="text-center bg-latestnews">
-    <h4>Seneste Nyt</h4>
+<div class="bg-latestnews text-white d-flex justify-content-center">
+    <h1 class="mt-1">Seneste Nyt</h1>
+</div>
+
+<div class="container mt-3">
+    <div class="d-flex justify-content-center bg-secondary">
+        <h1 class="mt-2">*Billede*</h1>
+    </div>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center">
+        <button class="w-100 mt-4 bg-orange text-white fw-bold fs-1 rounded rounded-4 border-0">Ugens Quiz</button>
+    </div>
+</div>
+
 </div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
