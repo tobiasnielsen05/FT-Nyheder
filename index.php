@@ -42,14 +42,32 @@
     <div class="d-flex justify-content-center bg-secondary">
         <h1 class="mt-2">*Billede*</h1>
     </div>
+</div>
 
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     <div class="d-flex justify-content-center">
         <button class="w-100 mt-4 bg-orange text-white fw-bold fs-1 rounded rounded-4 border-0">Ugens Quiz</button>
     </div>
 </div>
 
+<div class="bg-secondary text-primary d-flex justify-content-center">
+    <h1 class="mt-1">Debat</h1>
 </div>
+
+<div class="container bg-background">
+    <div class="d-flex justify-content-center">
+        <p class="mt-3 fs-5">Hvordan skal Lolland kommune sørge
+            for at folkeskolerne ikke dumper? </p>
+    </div>
+    <div class="d-flex justify-content-center mb-5">
+        <button class="w-100 mt-5 mb-4 bg-orange text-white fw-bold fs-1 rounded rounded-4 border-0">Deltag i Debatten</button>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center bg-secondary">
+    <h1 class="text-primary mt-1">Comic Strip</h1>
+</div>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
