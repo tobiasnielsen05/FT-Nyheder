@@ -68,6 +68,11 @@
     <h1 class="text-primary mt-1">Comic Strip</h1>
 </div>
 
+<div class="container mt-3">
+    <div class="d-flex justify-content-center bg-secondary">
+        <img src="images/comicstrip" alt="">
+    </div>
+</div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
