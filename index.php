@@ -68,9 +68,9 @@
     <h1 class="text-primary mt-1">Comic Strip</h1>
 </div>
 
-<div class="container mt-3">
+<div class="container mt-3 mb-5">
     <div class="d-flex justify-content-center bg-secondary">
-        <img src="images/comicstrip" alt="">
+        <img class="w-100" src="images/comicstrip.jfif" alt="">
     </div>
 </div>
 
