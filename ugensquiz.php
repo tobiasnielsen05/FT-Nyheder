@@ -61,9 +61,12 @@
         <div class="d-flex justify-content-center mb-3">
             <button class="w-100 mt-3 mb-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0">Svarmulighed 3</button>
         </div>
-
 </div>
 
+
+    <footer class="bg-primary d-flex justify-content-center">
+        <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil.svg" alt="pil der går tilbage til forsiden"></a>
+    </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

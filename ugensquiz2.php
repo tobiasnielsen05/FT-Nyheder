@@ -64,6 +64,9 @@
 
 </div>
 
+    <footer class="bg-primary d-flex justify-content-center">
+        <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil.svg" alt="pil der går tilbage til forsiden"></a>
+    </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
