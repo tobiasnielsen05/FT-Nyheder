@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="bg-secondarybg">
+<body class="bg-secondarybg w-100">
 <nav class="navbar navbar-expand-lg bg-primary mb-3">
     <div class="container-fluid">
         <a class="navbar-brand text-white fw-bold" href="index.php">FOLKETIDENDE</a>
@@ -34,41 +34,55 @@
     </div>
 </nav>
 
-<div class="row">
-    <div class="bg-secondary text-white d-flex justify-content-center">
-        <h1 class="mt-1 text-primary">Debat</h1>
+<div class="container">
+    <div class="row">
+        <div class="bg-secondary text-primary d-flex justify-content-center">
+            <h1 class="mt-1">Debat</h1>
+        </div>
     </div>
 
-    <div class="bg-background">
-        <div class="d-flex justify-content-center">
-            <h1 class="fs-2 mt-2 m-2 text-primary mb-3">Hvordan skal Lolland kommune sørge
-                for at folkeskolerne ikke dumper?</h1>
-        </div>
-        <div class="d-flex justify-content-center bg-secondary">
-            <h1 class="mt-2">*Billede*</h1>
-        </div>
-        <div>
-            <p class="m-2 mt-2 mb-3 fs-4">
-                Som i alle ved er lollands <br>
-                folkeskoler i seriøse problemer når <br>
-                det gælder deres  beståelsesprocent.
-                <br>
-                <br>
-                Hvis i har læst om dette problem har i
-                sikkert også nogle holdninger, her kan
-                i frit skrive dem ned.
-                <br><br>
-                Hold den gode tone og forbliv
-                respektfuld overfor andre.
-            </p>
-        </div>
+    <div class="d-flex justify-content-center">
+        <h1 class="mb-3 mt-4 fs-2 text-primary">Hvordan skal Lolland kommune sørge
+            for at folkeskolerne ikke dumper?</h1>
     </div>
-</div>
 
-<div class="row mt-4">
-    <div class="bg-secondary text-white d-flex justify-content-center">
-        <h1 class="mt-1 fw-bold text-primary">Kommentarer</h1>
+    <div class="d-flex justify-content-center bg-secondary mt-3">
+        <h1 class="mt-1">*Billede*</h1>
     </div>
+
+    <div class="d-flex justify-content-center">
+        <p class="mb-3 mt-4 fs-4 text-primary">
+            Som i alle ved er lollands folkeskoler i seriøse problemer når det gælder deres beståelsesprocent.
+            <br><br>
+            Hvis i har læst dette problem har i sikkert også nogle holdninger. <br>
+            Her kan i frit skrive dem.
+            <br><br>
+            Hold den gode tone og forbliv respektfuld overfor andre.
+        </p>
+    </div>
+
+    <div class="mb-3 mt-3">
+        <label for="formGroupExampleInput" class="form-label fs-3 text-primary fw-bold">Skriv en kommentar her!</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Navn">
+    </div>
+    <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Kommentar</label>
+    </div>
+
+    <div class="d-flex justify-content-center mb-3">
+        <button class="w-100 mt-2 mb-4 bg-orange text-white fw-bold fs-1 rounded rounded-4 border-0">Send Kommentar</button>
+    </div>
+
+    <div class="row bg-background mb-5">
+        <div class="bg-secondary text-primary d-flex justify-content-center">
+            <h1 class="mt-1">Kommentarer</h1>
+        </div>
+        <div class="d-flex justify-content-center mt-3 mb-3">
+            <h1 class="mt-1">Ingen kommentar endnu</h1>
+        </div>
+    </div>
+
 </div>
 
 
