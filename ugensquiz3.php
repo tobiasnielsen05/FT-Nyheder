@@ -47,7 +47,7 @@
 
     <div class="row mt-5">
         <div class="bg-secondary text-primary d-flex justify-content-center">
-            <h1 class="mt-1">Spørgsmål 3</h1>
+            <h1 class="mt-1 fw-bold">Spørgsmål 3</h1>
         </div>
 
         <div class="d-flex justify-content-center mb-3 mt-3">
@@ -64,7 +64,7 @@
 
 </div>
 
-    <footer class="bg-primary d-flex justify-content-center">
+    <footer class="bg-primary d-flex justify-content-center fixed-bottom">
         <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil.svg" alt="pil der går tilbage til forsiden"></a>
     </footer>
 

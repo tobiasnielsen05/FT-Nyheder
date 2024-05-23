@@ -51,7 +51,7 @@
 </div>
 
 <div class="bg-secondary text-primary d-flex justify-content-center">
-    <h1 class="mt-1">Debat</h1>
+    <h1 class="mt-1 fw-bold">Debat</h1>
 </div>
 
 <div class="container bg-background mb-5">
@@ -65,7 +65,7 @@
 </div>
 
 <div class="d-flex justify-content-center bg-secondary">
-    <h1 class="text-primary mt-1">Comic Strip</h1>
+    <h1 class="text-primary mt-1 fw-bold">Comic Strip</h1>
 </div>
 
 <div class="container mt-3 mb-5">
