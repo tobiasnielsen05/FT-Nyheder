@@ -15,6 +15,7 @@
 </head>
 
 <body class="bg-secondarybg w-100">
+
 <nav class="navbar navbar-expand-lg bg-primary mb-3">
     <div class="container-fluid">
         <a class="navbar-brand text-white fw-bold" href="index.php">FOLKETIDENDE</a>

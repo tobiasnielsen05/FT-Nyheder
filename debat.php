@@ -1,3 +1,6 @@
+<?php
+require "settings/init.php";
+?>
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -61,14 +64,17 @@
         </p>
     </div>
 
-    <div class="mb-3 mt-3">
-        <label for="formGroupExampleInput" class="form-label fs-3 text-primary fw-bold">Skriv en kommentar her!</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Navn">
-    </div>
-    <div class="form-floating mb-3">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Kommentar</label>
-    </div>
+
+    <form action="">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label fs-4 fw-bold text-primary">Her kan du skrive en kommentar</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Navn">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold text-primary">Kommentar</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </form>
 
     <div class="d-flex justify-content-center mb-3">
         <button class="w-100 mt-2 mb-4 bg-orange text-white fw-bold fs-1 rounded rounded-4 border-0">Send Kommentar</button>
