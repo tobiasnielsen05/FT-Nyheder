@@ -105,7 +105,7 @@ if (!empty($_POST["data"])) {
 </div>
 
 <footer class="bg-primary d-flex justify-content-center">
-    <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil.svg"
+    <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil1.png"
                                                                    alt="pil der går tilbage til forsiden"></a>
 </footer>
 

@@ -51,13 +51,13 @@
 <div class="container mb-5">
     <div class="row">
         <div class="col-12 mb-5 d-flex">
-            <a class="fw-bold fs-3" href="#"><img class="w-25" src="images/share1.png" alt="Del picture">Del med venner</a>
+            <a class="fw-bold fs-3" href="#"><img class="w-25" src="images/share2.png" alt="Del picture">Del med venner</a>
         </div>
     </div>
 </div>
 
 <footer class="bg-primary d-flex justify-content-center fixed-bottom mt-5">
-    <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil.svg" alt="pil der går tilbage til forsiden"></a>
+    <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil1.png" alt="pil der går tilbage til forsiden"></a>
 </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

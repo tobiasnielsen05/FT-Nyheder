@@ -69,8 +69,9 @@
 </div>
 
 <div class="container mt-3 mb-5">
+    <h1 class="fw-bold text-primary fs-4">Klik på billedet for stor version</h1>
     <div class="d-flex justify-content-center bg-secondary">
-        <a href="comicstrip.php">Klik på billedet for større version<img class="w-100" src="images/comicstrip.jfif" alt="Billede af comic strip"></a>
+        <a href="comicstrip.php"><img class="w-100" src="images/comicstrip.jfif" alt="Billede af comic strip"></a>
     </div>
 </div>
 
