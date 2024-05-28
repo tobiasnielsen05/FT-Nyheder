@@ -76,7 +76,6 @@ if (!empty($_POST["data"])) {
         </p>
     </div>
 
-
     <div class="container mb-5">
         <form action="debat.php" method="post">
             <div class="row g-3">

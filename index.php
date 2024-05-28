@@ -70,7 +70,7 @@
 
 <div class="container mt-3 mb-5">
     <div class="d-flex justify-content-center bg-secondary">
-        <img class="w-100" src="images/comicstrip.jfif" alt="">
+        <a href="comicstrip.php">Klik på billedet for større version<img class="w-100" src="images/comicstrip.jfif" alt="Billede af comic strip"></a>
     </div>
 </div>
 
