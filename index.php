@@ -56,7 +56,7 @@
 
 <div class="container bg-background mb-5">
     <div class="d-flex justify-content-center">
-        <p class="mt-3 fs-5">Hvordan skal Lolland kommune sørge
+        <p class="mt-3 fs-5 fw-bold text-primary">Hvordan skal Lolland kommune sørge
             for at folkeskolerne ikke dumper? </p>
     </div>
     <div class="d-flex justify-content-center">
