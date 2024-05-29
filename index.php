@@ -60,7 +60,7 @@
             for at folkeskolerne ikke dumper? </p>
     </div>
     <div class="d-flex justify-content-center">
-        <a class="btn btn-orange text-white fw-bold mb-3 w-100 fs-2 rounded-4" href="debat.php" role="button">Deltag i debatten</a>
+        <a class="btn btn-orange text-white fw-bold mb-3 w-100 fs-2 rounded-4" href="debat.php?newsID=1" role="button">Deltag i debatten</a>
     </div>
 </div>
 

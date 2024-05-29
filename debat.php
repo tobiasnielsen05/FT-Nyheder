@@ -98,9 +98,31 @@ if (!empty($_POST["data"])) {
         <div class="bg-secondary text-primary d-flex justify-content-center">
             <h1 class="mt-1">Kommentarer</h1>
         </div>
-        <div class="d-flex justify-content-center mt-3 mb-3">
-            <h1 class="mt-1">Ingen kommentar endnu</h1>
-        </div>
+        <?php
+        $kommentarer = $db->sql("SELECT * FROM kommentarer WHERE komNewsID = :newsID", [":newsID" => $_GET["newsID"]]);
+
+        if ($kommentarer) {
+            foreach ($kommentarer as $kommentar);
+            ?>
+            <div class="d-flex justify-content-center mt-3 mb-3">
+                <div class="card">
+                    <div class="card-header">
+                        <?php
+                        echo $kommentar->komNavn
+                        ?>
+                    </div>
+                    <div class="card-body">
+                        <?php
+                        echo $kommentar->komTekst
+                        ?>
+                    </div>
+                </div>
+            </div>
+        <?php
+        } else
+            echo '<h1 class="d-flex justify-content-center mt-3">Ingen kommentarer endnu!</h1>';
+        ?>
+
     </div>
 </div>
 
