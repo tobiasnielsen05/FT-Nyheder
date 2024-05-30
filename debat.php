@@ -77,7 +77,7 @@ if (!empty($_POST["data"])) {
     </div>
 
     <div class="container mb-5">
-        <form action="debat.php" method="post">
+        <form action="debat.php?newsID=1" method="post">
             <div class="row g-3">
                 <div class="col-12 col-md-6">
                     <label for="komNavn" class="form-label">Navn</label>
@@ -98,6 +98,7 @@ if (!empty($_POST["data"])) {
         <div class="bg-secondary text-primary d-flex justify-content-center">
             <h1 class="mt-1">Kommentarer</h1>
         </div>
+
         <?php
         $kommentarer = $db->sql("SELECT * FROM kommentarer WHERE komNewsID = :newsID", [":newsID" => $_GET["newsID"]]);
 
@@ -106,20 +107,20 @@ if (!empty($_POST["data"])) {
             ?>
             <div class="d-flex justify-content-center mt-3 mb-3">
                 <div class="card">
-                    <div class="card-header bg-secondary fw-bold d-flex justify-content-between">
-                        <?php
-                        echo $kommentar->komDato
-                        ?>
-                    </div>
                     <div class="card-body bg-secondary">
                         <div class="fw-bold">
                             <?php
-                            echo $kommentar->komNavn
+                            echo $kommentar->komNavn;
                             ?>
                         </div>
                             <?php
-                            echo $kommentar->komTekst
+                            echo $kommentar->komTekst;
                             ?>
+                    </div>
+                    <div class="card-footer text-muted bg-secondary">
+                        <?php
+                        echo $kommentar->komDato;
+                        ?>
                     </div>
                 </div>
             </div>
@@ -127,7 +128,6 @@ if (!empty($_POST["data"])) {
         } else
             echo '<h1 class="d-flex justify-content-center mt-3">Ingen kommentarer endnu!</h1>';
         ?>
-
     </div>
 </div>
 
