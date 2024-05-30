@@ -106,15 +106,20 @@ if (!empty($_POST["data"])) {
             ?>
             <div class="d-flex justify-content-center mt-3 mb-3">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header bg-secondary fw-bold d-flex justify-content-between">
                         <?php
-                        echo $kommentar->komNavn
+                        echo $kommentar->komDato
                         ?>
                     </div>
-                    <div class="card-body">
-                        <?php
-                        echo $kommentar->komTekst
-                        ?>
+                    <div class="card-body bg-secondary">
+                        <div class="fw-bold">
+                            <?php
+                            echo $kommentar->komNavn
+                            ?>
+                        </div>
+                            <?php
+                            echo $kommentar->komTekst
+                            ?>
                     </div>
                 </div>
             </div>
