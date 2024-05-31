@@ -51,32 +51,41 @@
     </div>
 
     <div class="d-flex justify-content-center bg-background mt-3">
-        <h1 class="mt-1">*Billede*</h1>
+        <img class="w-75" src="images/quizbillede.png" alt="billede til quiz">
     </div>
 
     <div class="row mt-5">
         <div class="bg-secondary text-primary d-flex justify-content-center">
             <h1 class="mt-1 fw-bold">Spørgsmål 2</h1>
         </div>
+        <div class="bg-background">
+            <h6 class="mt-2 fs-5">
+                For at sikre byen mod oversvømmelser skal der monteres en skydeport i havneløbet i Nakskov.
+                <br>Hvad kommer dette til at koste?
+            </h6>
+        </div>
 
         <div class="d-flex justify-content-center mb-3 mt-3">
-            <button class="w-100 mt-4 bg-secondary text-primary fs-1 rounded rounded-4 border-0">Svarmulighed 1</button>
+            <a class="w-100" href="ugensquiz3.php"><button class="w-100 mt-4 bg-secondary text-primary fs-1 rounded rounded-4 border-0">400 millioner kroner</button></a>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
-            <button class="w-100 mt-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0">Svarmulighed 2</button>
+            <button class="w-100 mt-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0" onclick="myFunction()">200 millioner kroner</button>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
-            <button class="w-100 mt-3 mb-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0">Svarmulighed 3</button>
+            <button class="w-100 mt-3 mb-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0" onclick="myFunction()">500 millioner kroner</button>
         </div>
-
-</div>
+    </div>
 
     <footer class="bg-primary d-flex justify-content-center fixed-bottom">
         <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil1.png" alt="pil der går tilbage til forsiden"></a>
     </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>function myFunction() {
+            alert("Du svarede forkert! Prøv igen");
+        }
+    </script>
 </body>
 </html>

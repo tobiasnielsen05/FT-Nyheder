@@ -20,7 +20,7 @@ require "settings/init.php";
 <body class="bg-secondarybg">
 <nav class="navbar navbar-expand-lg bg-primary mb-4">
     <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold" href="index.php">FOLKETIDENDE</a>
+        <img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,6 +62,12 @@ require "settings/init.php";
     </div>
 </div>
 
+<div class="container mb-3">
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-primary text-white fw-bold w-75 fs-2 rounded-3" id="knap">Tillad notifikationer</button>
+    </div>
+</div>
+
 <div class="bg-secondary text-primary d-flex justify-content-center">
     <h1 class="mt-1 fw-bold">Debat</h1>
 </div>
@@ -88,5 +94,22 @@ require "settings/init.php";
 </div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.getElementById('knap').addEventListener('click', function() {
+        if (Notification.permission === 'default') {
+            Notification.requestPermission().then(permission => {
+                if (permission === 'granted') {
+                    showNotification();
+                } else {
+                    console.log('Tilladelse nægtet!');
+                }
+            });
+        } else if (Notification.permission === 'granted') {
+            showNotification();
+        } else {
+            console.log('Notifikationer er ikke tilladt!');
+        }
+    });
+</script>
 </body>
 </html>

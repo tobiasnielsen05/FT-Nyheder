@@ -76,8 +76,9 @@ if (!empty($_POST["data"])) {
                 </h1>
             </div>
             
-            <div>
-                <img class="w-100" src="images/politimand.jpg" alt="">
+            <div class="fw-bold">
+                Arkivfoto:
+                <?php echo $nyhed->newsBilledeNavn . "<img class='w-100 mt-1' src='images/politimand.jpg' alt='politimand i mørke'>"?>
             </div>
 
             <div class="mt-2">
@@ -167,7 +168,6 @@ if (!empty($_POST["data"])) {
         ?>
     </div>
 </div>
-
 
 <footer class="bg-primary d-flex justify-content-center fixed-bottom mt-5">
     <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil1.png" alt="pil der går tilbage til forsiden"></a>
