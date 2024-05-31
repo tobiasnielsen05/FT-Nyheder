@@ -44,44 +44,29 @@
 </nav>
 
 <div class="container">
-    <div class="row">
-        <div class="bg-latestnews text-background d-flex justify-content-center">
-            <h1 class="mt-1">Uge 18 - Hvad er der sket?</h1>
-        </div>
-    </div>
-
-    <div class="d-flex justify-content-center bg-background mt-3">
-        <img class="w-75" src="images/quizbillede.png" alt="billede til quiz">
-    </div>
 
     <div class="row mt-5">
-        <div class="bg-secondary text-primary d-flex justify-content-center">
-            <h1 class="mt-1 fw-bold">Spørgsmål 3</h1>
-        </div>
-        <div class="bg-background">
-            <h6 class="mt-2 fs-5">
-                Torben Petersen havde en frugt og grøntbod der hjalp familier der ikke havde mange penge til overs.
-                <br>Dog blev den anonymt anmeldt til politiet og derefter lukkede den.
-                <br><br>Hvor mange familier blev hjulpet af denne bod?
-            </h6>
+        <div class="bg-secondary text-primary d-flex justify-content-center mb-4">
+            <h1 class="mt-1 fw-bold">TILLYKKE!</h1>
         </div>
 
-        <div class="d-flex justify-content-center mb-3 mt-3">
-            <button class="w-100 mt-4 bg-secondary text-primary fs-1 rounded rounded-4 border-0" onclick="myFunction()">21</button>
+        <div class="d-flex justify-content-center">
+            <h1 class="mt-4">
+                Du gennemførte ugens quiz
+            </h1>
         </div>
 
-        <div class="d-flex justify-content-center mb-3">
-            <button class="w-100 mt-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0">29</button>
+        <div class="d-flex justify-content-center">
+            <h1 class="mt-3">
+                Du fik x/3 rigtige
+            </h1>
         </div>
 
-        <div class="d-flex justify-content-center mb-3">
-            <button class="w-100 mt-3 mb-3 bg-secondary text-primary fs-1 rounded rounded-4 border-0" onclick="myFunction()">17</button>
+        <div class="d-flex justify-content-center mt-5">
+            <a class="btn btn-primary fs-5 fw-bold" href="index.php">Klik her for at gå tilbage til forsiden</a>
         </div>
+
     </div>
-
-    <footer class="bg-primary d-flex justify-content-center fixed-bottom">
-        <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil1.png" alt="pil der går tilbage til forsiden"></a>
-    </footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>function myFunction() {
