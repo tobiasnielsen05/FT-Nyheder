@@ -20,7 +20,7 @@ require "settings/init.php";
 <body class="bg-secondarybg">
 <nav class="navbar navbar-expand-lg bg-primary mb-4">
     <div class="container-fluid">
-        <img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo">
+        <a href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

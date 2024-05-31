@@ -31,7 +31,7 @@ if (!empty($_POST["data"])) {
 <body class="bg-secondarybg w-100">
 <nav class="navbar navbar-expand-lg bg-primary mb-3">
     <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold" href="index.php">FOLKETIDENDE</a>
+        <a href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
