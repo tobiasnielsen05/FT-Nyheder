@@ -31,7 +31,7 @@ if (!empty($_POST["data"])) {
 <body class="bg-background">
 <nav class="navbar navbar-expand-lg bg-primary mb-3">
     <div class="container-fluid">
-        <a href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
+        <a class="w-75" href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,8 +77,7 @@ if (!empty($_POST["data"])) {
             </div>
             
             <div class="fw-bold">
-                Arkivfoto:
-                <?php echo $nyhed->newsBilledeNavn . "<img class='w-100 mt-1' src='images/politimand.jpg' alt='politimand i mørke'>"?>
+                <img class="w-100" src="images/<?php echo $nyhed->newsBilledeNavn; ?>">
             </div>
 
             <div class="mt-2">

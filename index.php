@@ -20,7 +20,7 @@ require "settings/init.php";
 <body class="bg-secondarybg">
 <nav class="navbar navbar-expand-lg bg-primary mb-4">
     <div class="container-fluid">
-        <a href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
+        <a class="w-75" href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,11 +50,16 @@ require "settings/init.php";
     <h1 class="mt-1">Seneste Nyt</h1>
 </div>
 
-<div class="container mt-3">
-    <div class="d-flex justify-content-center bg-secondary">
-        <a href="senestenyt.php?newsID=2"><img class="w-100" src="images/politimand.jpg" alt="politimand der står og peger om natten"></a>
+<a href="senestenyt.php?newsID=2"><div class="container mt-3">
+    <div class="d-block justify-content-center">
+        <img class="w-100 border border-3 border-secondary" src="images/politimand.jpg" alt="politimand der står og peger om natten">
+        <div class="d-flex bg-secondary">
+            <p class="mt-1 m-1 fs-2 fw-bold text-primary">Natten gemte på flere
+                påvirkede billister</p>
+        </div>
     </div>
 </div>
+</a>
 
 <div class="container mt-5 mb-4">
     <div class="d-flex justify-content-center">
@@ -68,7 +73,7 @@ require "settings/init.php";
     </div>
 </div>
 
-<div class="bg-secondary text-primary d-flex justify-content-center">
+<div class="bg-secondary text-primary d-flex justify-content-center mt-5">
     <h1 class="mt-1 fw-bold">Debat</h1>
 </div>
 
@@ -87,7 +92,7 @@ require "settings/init.php";
 </div>
 
 <div class="container mt-3 mb-5">
-    <h1 class="fw-bold text-primary fs-4">Klik på billedet for stor version (Mobil)</h1>
+    <h1 class="fw-bold text-primary fs-4">Klik på billedet for stor version</h1>
     <div class="d-flex justify-content-center bg-secondary">
         <a href="comicstrip.php"><img class="w-100" src="images/comicstrip.jfif" alt="Billede af comic strip"></a>
     </div>

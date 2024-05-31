@@ -17,7 +17,7 @@
 <body class="bg-secondarybg w-100">
 <nav class="navbar navbar-expand-lg bg-primary mb-3">
     <div class="container-fluid">
-        <a href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
+        <a class="w-75" href="index.php"><img class="w-50" src="images/logohvid.webp" alt="ft nyheder hvid logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,14 +43,14 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container mb-5">
     <div class="row">
         <div class="bg-latestnews text-background d-flex justify-content-center">
             <h1 class="mt-1">Uge 18 - Hvad er der sket?</h1>
         </div>
     </div>
 
-    <div class="d-flex justify-content-center bg-background mt-3">
+    <div class="d-flex justify-content-center mt-3">
         <img class="w-75" src="images/quizbillede.png" alt="billede til quiz">
     </div>
 
