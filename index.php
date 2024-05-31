@@ -1,3 +1,6 @@
+<?php
+require "settings/init.php";
+?>
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -15,7 +18,7 @@
 </head>
 
 <body class="bg-secondarybg">
-<nav class="navbar navbar-expand-lg bg-primary mb-5">
+<nav class="navbar navbar-expand-lg bg-primary mb-4">
     <div class="container-fluid">
         <a class="navbar-brand text-white fw-bold" href="index.php">FOLKETIDENDE</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +52,7 @@
 
 <div class="container mt-3">
     <div class="d-flex justify-content-center bg-secondary">
-        <h1 class="mt-2">*Billede*</h1>
+        <a href="senestenyt.php?newsID=2"><img class="w-100" src="images/politimand.jpg" alt="politimand der står og peger om natten"></a>
     </div>
 </div>
 
@@ -69,7 +72,7 @@
             for at folkeskolerne ikke dumper? </p>
     </div>
     <div class="d-flex justify-content-center">
-        <a class="btn btn-orange text-white fw-bold mb-3 w-100 fs-2 rounded-4" href="debat.php?newsID=1" role="button">Deltag i debatten</a>
+        <a class="btn btn-orange text-white fw-bold mb-2 w-100 fs-2 rounded-4" href="debat.php?newsID=1" role="button">Deltag i debatten</a>
     </div>
 </div>
 

@@ -97,7 +97,7 @@ if (!empty($_POST["data"])) {
             </div>
 
             <div class="mt-2">
-                <p class="fs-5 mb-5 text-primary">
+                <p class="fs-5 mb-2 text-primary">
                     <?php
                     echo $nyhed->newsTekst
                     ?>
@@ -130,41 +130,44 @@ if (!empty($_POST["data"])) {
     </div>
 </div>
 
-<div class="row bg-background mb-5">
-    <div class="bg-secondary text-primary d-flex justify-content-center">
-        <h1 class="mt-1">Kommentarer</h1>
-    </div>
+<div class="container">
+    <div class="row bg-background mb-5">
+        <div class="bg-secondary text-primary d-flex justify-content-center">
+            <h1 class="mt-1">Kommentarer</h1>
+        </div>
 
-    <?php
-    $kommentarer = $db->sql("SELECT * FROM kommentarer WHERE komNewsID = :newsID", [":newsID" => $_GET["newsID"]]);
+        <?php
+        $kommentarer = $db->sql("SELECT * FROM kommentarer WHERE komNewsID = :newsID", [":newsID" => $_GET["newsID"]]);
 
-    if ($kommentarer) {
-        foreach ($kommentarer as $kommentar);
-        ?>
-        <div class="d-flex justify-content-center mt-3 mb-5">
-            <div class="card">
-                <div class="card-body bg-secondary">
-                    <div class="fw-bold">
+        if ($kommentarer) {
+            foreach ($kommentarer as $kommentar);
+            ?>
+            <div class="d-flex justify-content-center mt-3 mb-5">
+                <div class="card">
+                    <div class="card-body bg-secondary">
+                        <div class="fw-bold">
+                            <?php
+                            echo $kommentar->komNavn;
+                            ?>
+                        </div>
                         <?php
-                        echo $kommentar->komNavn;
+                        echo $kommentar->komTekst;
                         ?>
                     </div>
-                    <?php
-                    echo $kommentar->komTekst;
-                    ?>
-                </div>
-                <div class="card-footer text-muted bg-secondary">
-                    <?php
-                    echo $kommentar->komDato;
-                    ?>
+                    <div class="card-footer text-muted bg-secondary">
+                        <?php
+                        echo $kommentar->komDato;
+                        ?>
+                    </div>
                 </div>
             </div>
-        </div>
-        <?php
-    } else
-        echo '<h1 class="d-flex justify-content-center mt-3 mb-5">Ingen kommentarer endnu!</h1>';
-    ?>
+            <?php
+        } else
+            echo '<h1 class="d-flex justify-content-center mt-3 mb-5">Ingen kommentarer endnu!</h1>';
+        ?>
+    </div>
 </div>
+
 
 <footer class="bg-primary d-flex justify-content-center fixed-bottom mt-5">
     <a class="d-flex justify-content-center" href="index.php"><img class="w-25" src="images/pil1.png" alt="pil der går tilbage til forsiden"></a>
