@@ -24,12 +24,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Pricing</a>
-                </li>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Lolland</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Guldborgsund</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Kultur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">112</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sport</a>
+                    </li>
+                </ul>
             </ul>
         </div>
     </div>
